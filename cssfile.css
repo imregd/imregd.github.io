@@ -1,0 +1,53 @@
+﻿p {
+    color: black;
+    width: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+}
+html{
+    /*pm means pixels*/
+    font-size: 30px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    background-color: #808080;
+}
+h1{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+h2 {
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #808080;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+img{
+    display: block;
+    margin: 0 auto;
+
+}
+.done {
+    color: darkseagreen;
+    text-decoration: line-through solid black 2px;
+}
+li{
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    background-color: grey;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 20px;
+}
