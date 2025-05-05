@@ -57,5 +57,11 @@ button {
     background-color: black;
     transform: scale(1.5);
     color: white;
+
+}
+.hellobutton:hover span {
+    display: none;
+    }
+.hellobutton:hover::after{
     content: "Good boy~~";
 }
