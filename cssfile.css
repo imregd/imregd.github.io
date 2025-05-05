@@ -52,8 +52,8 @@ button {
     font-size: 20px;
 }
 
-btn.one:hover {
+.btn.one:hover {
     background-color: black;
     transform: scale(1.5);
-    transform: scale(1.5);
+
 }
