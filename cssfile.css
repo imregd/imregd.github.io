@@ -46,14 +46,16 @@ li{
 
 button {
     display: block;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
     background-color: grey;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-size: 20px;
+    transition-duration: 0.4s
 }
 
-.btn-one:hover {
+.hellobutton:hover {
     background-color: black;
     transform: scale(1.5);
+    color: white;
 
 }
