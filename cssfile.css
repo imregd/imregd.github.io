@@ -50,12 +50,11 @@ button {
     background-color: grey;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-size: 20px;
-    transition-duration: 0.4s
+    transition-duration: 0.4s;
 }
 
 .hellobutton:hover {
-    background-color: black;
-    transform: scale(1.5);
-    color: white;
-
+    background-color: black !important;
+    transform: scale(1.5) !important;
+    color: white !important;
 }
