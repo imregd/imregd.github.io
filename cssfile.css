@@ -44,11 +44,16 @@ li{
     text-align: center;
 }
 
-button:hover {
+button {
     display: block;
     margin: 0 auto;
     background-color: grey;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-size: 20px;
+}
+
+btn.one:hover {
+    background-color: black;
+    transform: scale(1.5);
     transform: scale(1.5);
 }
