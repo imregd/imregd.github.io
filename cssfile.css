@@ -50,7 +50,25 @@ button {
     background-color: grey;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-size: 20px;
-    transition-duration: 0.4s;
+}
+
+.hellobutton {
+    overflow: hidden;
+    position: relative;
+}
+
+.hellobutton span{
+    transition: transform 0.4s ease;
+}
+
+.hellobutton:hover::after {
+    content: "booo";
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transition: top 0.4s ease;
+    top: 100%;
 }
 
 .hellobutton:hover {
@@ -60,8 +78,9 @@ button {
 
 }
 .hellobutton:hover span {
-    display: none;
-    }
-.hellobutton:hover::after{
-    content: "Good boy~~";
+    transform: translateY(-100%);
+}
+
+.hellobutton::after{
+    top: 0;
 }
