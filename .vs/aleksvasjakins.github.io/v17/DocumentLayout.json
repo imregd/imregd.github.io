@@ -29,6 +29,20 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\aleks\\source\\repos\\aleksvasjakins.github.io\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\aleks\\source\\repos\\aleksvasjakins.github.io\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-05T18:15:58.639Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
@@ -40,9 +54,10 @@
               "RelativeDocumentMoniker": "jsfile.js",
               "ToolTip": "C:\\Users\\aleks\\source\\repos\\aleksvasjakins.github.io\\jsfile.js",
               "RelativeToolTip": "jsfile.js",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAmwDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-05T18:19:17.753Z"
+              "WhenOpened": "2025-05-05T18:19:17.753Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -52,21 +67,10 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\aleks\\source\\repos\\aleksvasjakins.github.io\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-05-05T18:19:17.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\aleks\\source\\repos\\aleksvasjakins.github.io\\index.html",
-              "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "C:\\Users\\aleks\\source\\repos\\aleksvasjakins.github.io\\index.html",
-              "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-05T18:15:58.639Z"
+              "WhenOpened": "2025-05-05T18:19:17.125Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,7 +80,7 @@
               "RelativeDocumentMoniker": "cssfile.css",
               "ToolTip": "C:\\Users\\aleks\\source\\repos\\aleksvasjakins.github.io\\cssfile.css",
               "RelativeToolTip": "cssfile.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-05-05T18:12:16.255Z",
               "EditorCaption": ""

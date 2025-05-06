@@ -52,21 +52,15 @@ button {
     font-size: 20px;
 }
 
-.hellobutton {
-    overflow: hidden;
-    position: relative;
-}
 
 .hellobutton:hover span {
     opacity: 0;
-    transform: translateY(-100%);
 }
 
 .hellobutton::after {
     top: 100%;
     left: 0;
     right: 0;
-    text-align: center;
     position: absolute;
     content: "";
 
@@ -87,8 +81,4 @@ transition: transform 0.4s ease;
     transform: scale(1.5);
     color: white;
     transition: transform 0.4s ease;
-}
-
-.hellobutton::after{
-    top: 0;
 }
