@@ -27,7 +27,7 @@ Benimaru_Image.addEventListener("click", () => {
     }
 });
 
-let mybutton = document.querySelector("button");
+let mybutton = document.querySelector(".changeuser");
 let myheading = document.querySelector("h1");
 
 function setusername() {
