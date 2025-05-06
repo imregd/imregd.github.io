@@ -1,1 +1,1 @@
-ts my website yo
+a basic website that i made to learn html,css & js
