@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -39,12 +39,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-05-05T18:15:58.639Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -56,8 +51,7 @@
               "RelativeToolTip": "jsfile.js",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwB0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-05T18:19:17.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T18:19:17.753Z"
             },
             {
               "$type": "Document",
@@ -69,8 +63,7 @@
               "RelativeToolTip": "README.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-05-05T18:19:17.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T18:19:17.125Z"
             },
             {
               "$type": "Document",
@@ -80,7 +73,7 @@
               "RelativeDocumentMoniker": "cssfile.css",
               "ToolTip": "C:\\Users\\aleks\\source\\repos\\aleksvasjakins.github.io\\cssfile.css",
               "RelativeToolTip": "cssfile.css",
-              "ViewState": "AgIAACwAAAAAAAAAAAAswEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswEQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-05-05T18:12:16.255Z",
               "EditorCaption": ""
