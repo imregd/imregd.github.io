@@ -1,48 +1,42 @@
-﻿p {
-    color: black;
-    width: 500px;
-    border: 1px solid black;
-    margin: 0 auto;
-    text-align: center;
-}
-html{
-    /*pm means pixels*/
-    font-size: 30px;
+﻿html {
+    font-size: 18px;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 800;
-    font-style: normal;
-    background-color: white;
-}
-h1{
-    color: black;
-    font-size: 60px;
-    text-align: center;
-}
-h2 {
-    color: black;
-    font-size: 60px;
-    text-align: center;
+    background-color: #f8f9fa;
+    color: #212529;
 }
 
 body {
-    width: 600px;
-    margin: 0 auto;
-    background-color: dimgrey;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
+    max-width: 900px;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px;
 }
-img{
+
+h1, h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+
+img {
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
+    max-width: 100%;
+    box-shadow: 0 0 10px;
+}
 
-}
-.done {
-    color: black;
-    text-decoration: line-through solid black 2px;
-}
-li{
-    text-align: center;
-}
 
 button {
     display: block;
@@ -50,7 +44,8 @@ button {
     background-color: white;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-size: 20px;
-    transition: transform 0.4s ease; /* basic button style, affects all buttons*/
+    transition: transform 0.2s ease; /* basic button style, affects all buttons*/
+    box-shadow: 0 0 10px;
 }
 
 
@@ -64,16 +59,14 @@ button::after {
     right: 0;
     position: absolute;
     content: ""; /* creates the  text that will be replaced, makes it invis for now */
-
 }
 
 button:hover::after {
-content: "booo";
-top: 50%;
-transform: translateY(-50%);
-text-align: center;
-transition: transform 0.4s ease;
-
+    content: "booo";
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    transition: transform 0.2s ease;
 }
 
 
@@ -81,6 +74,20 @@ button:hover {
     background-color: black;
     transform: scale(1.5);
     color: white;
-    transition: transform 0.4s ease;
+    transition: transform 0.2s ease;
 }
 
+
+
+.character-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+    padding: 2rem;
+    background-color: #f1f3f5;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px;
+    text-align: center;
+}
