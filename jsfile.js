@@ -54,23 +54,7 @@ mybutton.addEventListener("click", () => {
 
 
 
-<script>
-  function TimeLive() {
-        const now = new Date();
-        const hours = now.getHours() % 12 || 12;
-        const minutes = now.getMinutes().toString().padStart(2, '0');
-        const seconds = now.getSeconds().toString().padStart(2, '0');
-        const ampm = now.getHours() >= 12 ? 'PM' : 'AM';
-
-        const formattedTime = `${hours}:${minutes}:${seconds} ${ampm}`;
-
-        document.getElementById('currentTime').textContent = formattedTime;
-    }
-
-    setInterval(TimeLive, 1000);
-
-    updateTime();
-</script>
 });
+
 
 
