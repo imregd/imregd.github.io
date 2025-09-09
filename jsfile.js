@@ -54,7 +54,7 @@ mybutton.addEventListener("click", () => {
 
 
 
-
+<script>
   function TimeLive() {
         const now = new Date();
         const hours = now.getHours() % 12 || 12;
@@ -70,5 +70,7 @@ mybutton.addEventListener("click", () => {
     setInterval(TimeLive, 1000);
 
     updateTime();
+</script>
 });
+
 
